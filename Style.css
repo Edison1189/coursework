@@ -1,0 +1,148 @@
+
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+header {
+    background-color: #e67e22;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    list-style: none;
+}
+
+nav li a {
+    color: #333;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #e67e22;
+}
+
+.hero {
+    background-image: url('https://imgs.search.brave.com/mj53HITXJFmTWnJRAHL2UcN_FTIlnpXnKUdukESwPuk/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly8zLmJw/LmJsb2dzcG90LmNv/bS8tT3VrRmUzN0pZ/TnMvVU9nT1lLLWUw/NkkvQUFBQUFBQUFC/TFkvSmp6Ymh0OW5B/OWcvczE2MDAvODk2/NjMtd2FsbHBhcGVy/cy1jdXRlLWRvZ3Mu/anBn');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 5rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.hero button {
+    background-color: #e67e22;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.hero button:hover {
+    background-color: #d35400;
+}
+
+.about-us {
+    background-color: #f1f1f1;
+    padding: 4rem;
+}
+
+.about-us h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.services {
+  margin-top: 20px;
+    background-color: #fff;
+    padding: 4rem;
+}
+
+.services h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.blog {
+    background-color: #f1f1f1;
+    padding: 4rem;
+}
+
+.blog h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.blog-posts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-post {
+    width: calc(50% - 2rem);
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.blog-post h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.blog-post p {
+    margin-bottom: 1rem;
+}
+
+.blog-post a {
+    color: #e67e22;
+    text-decoration: none;
+}
+
+.contact-us {
+    background-color: #fff;
+    padding: 4rem;
+}
+
+.contact-us h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.contact-us form {
+    display: flex;
+    flex-direction: column
